@@ -4,8 +4,8 @@ GameStore Web Application
 This was a college project that myself and a colleague Alan Brady wrote while doing a Higher Diploma in Web Development course in Griffith 
 College.
 
-My colleague designed and wrote the web pages (using Dreamweaver & photoshop) and I did all of the programming, database, and JSP work on the 
-web pages.
+My colleague designed and wrote the web pages (using Dreamweaver & photoshop) and I did all of the programming, database, and JSP/graph work on 
+the web pages.
 
 The project is based on a game store that uses a membership based system, whereby the user becomes a member, gives credit card details and can 
 increase there balance at the store and order games from the store's website. The incentive to use the store is that members can gain bronze, 
@@ -26,88 +26,81 @@ You will also need to setup a Web Server in the project, the one I used was Tomc
 
 To run the project right click on the project and select Run As -> Run on Server with either MySql open or even just MySqld.exe running
 
-
-
-??????????????I also included a "Screenshots And Printout.zip" zip file containing the screenshots from the application.
+Because a lot of the application is dependant on when orders have been entered, like tje charts. To see the application working properly you 
+would need to set your system date to 25/05/2015 as most of the data was entered around this time
 
 # Functionality
 
-  Retail Orders
+  Viewers
     
-      The ability to add Retail Orders
+      Presented with the top 5 most viewed games
       
-      Apply discounts
-      Gross Profit percent and value calculated and displayed on screen
-      Add customer details to the order
-      Choose order pay type
-      Print receipts
+      Can Search for Games by Name and platform
+      
+      Clicking into a Game displays a large cover, prices, screenshots and description
+      
+      Home - Reload the initial home page
+      
+      Playstation 3 - Display the most viewed Playstation 3 games
+      
+      Playstation 4 - Display the most viewed Playstation 4 games
+      
+      Xbox One - Display the most viewed Xbox One games
+      
+      Xbox 360 - Display the most viewed Xbox 360 games
+      
+      WII - Display the most viewed WII games
+      
+      Nintendo - Display the most viewed Nintendo games
+      
+      Pc Games - Display the most viewed Pc games
+      
+      Contact Us - Displays contat details
+      
+      Registration - Allows viewers to Register
+      
+      Log In - Allows users to log in
+      
+ Users
+      
+      An unsuccessful login shows an error page
+      
+      A successful login showsthe User's Home page
+      
+      Home - The user's membership card with name and balance is displayed along with a search panel to search for games by name and platform
+      
+      Increase Balance - This is where the user requests an increase in their balance from their credit card
+      
+      Change Details - This page allows the user to change their personal details
+      
+      Account History - This shows the users transactions (date, status, value, game and balance at the time) for every order they placed
+      
+      Log out - Logs the user out of their account and back to the viewer's home page  
     
-  Trade orders
+ Admin
   
-      The ability to add Trade orders
-      Gross Profit percent and value calculated and siplayed on screen
-      Add tradesmen details to the order
-      Choose order pay type
-      print receipts details
+      On initial login the admin user is presented with a 3d pie chart of amount of the top five delivered games of all platforms divided into 
+      their portion of the total delivered games of the top 5 delivered games. The admin user also gets a a 3d bar chart of the year's orders 
+      broken into the months of the year. There is also a line graph showing the total order qty ovr the last 30 days. Finally there is another 
+      3d bar chart showing the breakdown or orders per user level (Gold, Silver, Bronze).
       
-  Suspended Orders
-  
-      Add retail or trade suspended orders
+      At any time and on any of the admin screens the user can run the charts against a particular platform or all platforms via a dropdown on 
+      the screen
       
-      List of Suspended Orders Displayed, can filter Retail or Trade Suspended Orders
-      Enter a Payment against a Suspended Order
-      Select a Suspended Order To Process
-          Release Order Lines from the Suspended Order
-          Add new Lines to the Suspended Order and re-print
-          Remove Lines from a Suspended Order
-  
-  Quotations
-  
-      Add Retail Quotes similar to orders without payment type
-      Add Trade Quotes similar to orders without payment type
-      Convert a quote into an order
-          List of Quotations displayed with many filters to find quotation
-              Type, No, Name, Address, Date Range, Phone Value, Item Code or Description of item on quote
-          On Selection lines on quote displayed, convert button to open retail/trade order screen quote
-  
-  Accounts
-  
-      List of all accounts displayed: name, address, phone, balance
-      Can filter by above fields
-      On selection of account - detail screen loaded with name, balance and last 20 transactions
-          A statement can be displayed for the account for a specific ate range
-          A payment can be made against the account
-          An trade order can be entered for the account
-          A trade quote can be entered for the account
-          A list of account Quotes can be displayed and converted to orders if required
-  
-  Refunds
-  
-      List of Refunds displayed with many filters to find an order to refund against
-          Type, No, Name, Address, Date Range, Phone Value, Item Code or Description of item on quote
-      On Selection lines on quote displayed broken down to a quantity of 1 on each line
-          User selects the lines to refund which opens a frame showing to be refunded items with values
-          Refund button on to be refunded performs the refund.
-  
-  Product maintenance
-  
-      The list of Products are displayed - filters available are code and description
-          User can perform CRUD operations on Products
-  
-  Customer maintenance
-  
-      The list of Customers are displayed - filters available are name, address and phone
-          User can perform CRUD operations on Customers
-  
-  Tradesmen Maintenance
-  
-      The list of Tradesmen are displayed - filters available are name, address and phone
-          User can perform CRUD operations on Tradesmen
-      
-  Settings
-  
-      Various Vat and Receipt printing settings
-          Choose whether or not to print icons on the top of in the body of the page with their X an Y positions
-          Choose whether or not to print vertical grid lines on a receipt
-          Enter various lines of footer text that can be applied to the receipt's footer
-          Enter the current Vat Rate
+	  Delete Ord - A list of all of the orders that can be deleted (Ordered or Approved) are presented on screen with a trash can for easy 
+	  deletion.
+	  
+	  Approve Ord - A list of all of the orders that are awaiting approval (Ordered) are presented on screen with a thunbs up sign for easy 
+	  approval.
+	  
+	  Deliver Ord - A list of all of the orders that are to be delivered (Approved) are presented on screen with a van sign for easy delivery. 
+
+	  Users - Approve Users - A list of all of the users that are awaiting approval (resistered not approved) are presented on screen with a 
+	  thunbs up sign for easy approval.
+	  
+	  Users - Approve Increase Balance - A list of all of the balance increase requests are presented on screen with a thunbs up sign for easy 
+	  approval.
+	  
+	  User History - This loads a page where the admin user can select any user from the database using a dropdown. When a user is ssubmitted a 
+	  page then loads containing all of that user's transactions (date, status, value, game and balance at the time) for every order they 
+	  placed. 
