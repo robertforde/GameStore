@@ -81,29 +81,29 @@ would need to set your system date to 25/05/2015 as most of the data was entered
     
  Admin
   
-      On initial login the admin user is presented with a 3d pie chart of amount of the top five delivered games 
-      of all platforms divided into their portion of the total delivered games of the top 5 delivered games. The 
-      admin user also gets a a 3d bar chart of the year's orders broken into the months of the year. There is 
-      also a line graph showing the total order qty ovr the last 30 days. Finally there is another 3d bar chart 
-      showing the breakdown or orders per user level (Gold, Silver, Bronze).
+      On initial login the admin user is presented with a 3d pie chart of amount of the top five delivered
+      games of all platforms divided into their portion of the total delivered games of the top 5 delivered 
+      games. The admin user also gets a a 3d bar chart of the year's orders broken into the months of the 
+      year. There is also a line graph showing the total order qty ovr the last 30 days. Finally there is 
+      another 3d bar chart showing the breakdown or orders per user level (Gold, Silver, Bronze).
       
-      At any time and on any of the admin screens the user can run the charts against a particular platform or 
-      all platforms via a dropdown on the screen
+      At any time and on any of the admin screens the user can run the charts against a particular platform 
+      or all platforms via a dropdown on the screen
       
-	  Delete Ord - A list of all of the orders that can be deleted (Ordered or Approved) are presented on screen 
-	  with a trash can for easy deletion.
+	  Delete Ord - A list of all of the orders that can be deleted (Ordered or Approved) are presented on 
+	  screen with a trash can for easy deletion.
 	  
 	  Approve Ord - A list of all of the orders that are awaiting approval (Ordered) are presented on screen 
 	  with a thunbs up sign for easy approval.
 	  
-	  Deliver Ord - A list of all of the orders that are to be delivered (Approved) are presented on screen with 
-	  a van sign for easy delivery. 
+	  Deliver Ord - A list of all of the orders that are to be delivered (Approved) are presented on screen 
+	  with a van sign for easy delivery. 
 
 	  Users - Approve Users - A list of all of the users that are awaiting approval (resistered not approved) 
 	  are presented on screen with a thunbs up sign for easy approval.
 	  
-	  Users - Approve Increase Balance - A list of all of the balance increase requests are presented on screen 
-	  with a thunbs up sign for easy approval.
+	  Users - Approve Increase Balance - A list of all of the balance increase requests are presented on 
+	  screen with a thunbs up sign for easy approval.
 	  
 	  User History - This loads a page where the admin user can select any user from the database using a 
 	  dropdown. When a user is submitted a page then loads containing all of that user's transactions (date, 
