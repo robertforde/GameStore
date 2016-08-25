@@ -1,0 +1,60 @@
+body{
+	background-color:black;
+	color:white;
+}
+
+#Top5OrderedGames {
+	clear:both;
+	height: 25em; 
+	min-width: 25em; 
+	max-width: 50em;
+	margin: 1em auto;
+	border-color:#293452;
+	border-width:.125em;
+	border-style:solid;
+	box-shadow: .5em .5em .25em #888888;
+	background-color:white;
+	color:black;
+}
+
+#DeliveredOrdersByMonth{
+	clear:both;
+	height: 25em; 
+	min-width: 25em; 
+	max-width: 50em;
+	margin: 1em auto;
+	border-color:#293452;
+	border-width:.125em;
+	border-style:solid;
+	box-shadow: .5em .5em .25em #888888;
+	background-color:white;
+	color:black;
+}
+
+#30DaysOrders{
+	clear:both;
+	height: 25em; 
+	min-width: 25em; 
+	max-width: 50em;
+	margin: 1em auto;
+	border-color:#293452;
+	border-width:.125em;
+	border-style:solid;
+	box-shadow: .5em .5em .25em #888888;
+	background-color:white;
+	color:black;	
+}
+
+#OrdersByLevel{
+	clear:both;
+	height: 25em; 
+	min-width: 25em; 
+	max-width: 50em;
+	margin: 1em auto;
+	border-color:#293452;
+	border-width:.125em;
+	border-style:solid;
+	box-shadow: .5em .5em .25em #888888;
+	background-color:white;
+	color:black;	
+}
